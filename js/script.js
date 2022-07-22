@@ -2,7 +2,7 @@ const swiper = new Swiper('.swiper', {
     // Optional parameters
     loop: true,
     slidesPerView: 5,
-    spaceBetween: 100,
+    spaceBetween: 170,
   
     
     // Navigation arrows
@@ -63,7 +63,6 @@ const swiper = new Swiper('.swiper', {
       slide.appendChild(closeButton);
       backdrop.classList.add('backdrop');
       closeButton.classList.add('close-button');
-      closeButton.innerHTML = 'x';
 
       backdrop.addEventListener('click', function() {
         closeFullscreenSwiper(slideNumber);
